@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './Navbar'
+import Splashscreen from './Splashscreen'
+import Contentscreen from './Contentscreen'
+import Contactscreen from './Contactscreen'
+import Aboutscreen from './Aboutscreen';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <div className="flex-col h-screen">
+            <Navbar/>
+            <Splashscreen/>
+            <Contentscreen/>
+            <Aboutscreen/>
+            <Contactscreen/>
+        </div>
+    );
 }
-
-export default App;
