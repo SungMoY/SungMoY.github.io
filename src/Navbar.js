@@ -6,7 +6,7 @@ export default function Navbar() {
     const [navColor, setnavColor] = useState("transparent text-white");
 
     const listenScrollEvent = () => {
-        let scrollVal = document.getElementById("splashscreen").offsetHeight - document.getElementById("navbar").offsetHeight
+        let scrollVal = document.getElementById("splashscreen").offsetHeight/1.5
         window.scrollY > scrollVal ? setnavColor("bg-gray-600 text-white") : setnavColor("transparent text-white");
         window.scrollY > scrollVal ? setnavSize("py-4") : setnavSize("py-10");
     };
