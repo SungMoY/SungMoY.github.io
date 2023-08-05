@@ -2,13 +2,15 @@ import React, { useState, useEffect } from 'react'
 
 export default function Navbar() {
 
-    const [navSize, setnavSize] = useState("py-10");
+    const [navSize, setnavSize] = useState("md:py-10 py-8");
     const [navColor, setnavColor] = useState("transparent text-white");
+    const [barColor, setbarColor] = useState("text-gray-700");
 
     const listenScrollEvent = () => {
-        let scrollVal = document.getElementById("splashscreen").offsetHeight/1.5
-        window.scrollY > scrollVal ? setnavColor("bg-gray-600 text-white") : setnavColor("transparent text-white");
-        window.scrollY > scrollVal ? setnavSize("py-4") : setnavSize("py-10");
+        let scrollVal = document.getElementById("splashscreen").offsetHeight/8
+        window.scrollY > scrollVal ? setnavColor("bg-gray-700 text-white") : setnavColor("transparent text-white");
+        window.scrollY > scrollVal ? setnavSize("py-4") : setnavSize("md:py-10 py-8");
+        window.scrollY > scrollVal ? setbarColor("text-white") : setbarColor("text-gray-700");
     };
     useEffect(() => {
         window.addEventListener("scroll", listenScrollEvent);
@@ -36,26 +38,27 @@ export default function Navbar() {
     return (
     <div
         id="navbar"
-        className={`fixed left-1/2 transform -translate-x-1/2 w-1/2 ${navSize} drop-shadow-4xl ${navColor} duration-300 rounded-b-2xl font-mono`}>
+        className={`fixed ${navSize} ${navColor} duration-150 rounded-b-lg w-full md:w-5/6 lg:w-3/5 md:left-1/2 md:transform md:-translate-x-1/2`}>
+        <div className="mx-auto absolute top-0 left-0 right-0 bottom-0 border-b-2 border-gray-700 w-3/4 -z-50" />
 
-
-        <div className="mx-auto absolute top-0 left-0 right-0 bottom-0 border-b-2 border-gray-600 w-3/4 -z-50" />
-
-
-        <div className="flex flex-row justify-center space-x-16">
-            <button className="text-2xl px-4" onClick={scrollToHome}>
+        <div className="flex flex-row justify-between md:justify-center md:text-2xl px-4">
+            <button className="2xl:px-16 md:px-6" onClick={scrollToHome}>
                 Home
             </button>
-            <button className="text-2xl px-4" onClick={scrollToAboutMe}>
+            <div className={`${barColor} `}>|</div>
+            <button className="2xl:px-16 md:px-6" onClick={scrollToAboutMe}>
                 About
             </button>
-            <button className="text-2xl px-4" onClick={scrollToProjects}>
+            <div className={`${barColor}`}>|</div>
+            <button className="2xl:px-16 md:px-6" onClick={scrollToProjects}>
                 Projects
             </button>
-            <button className="text-2xl px-4" onClick={scrollToContactMe}>
+            <div className={`${barColor}`}>|</div>
+            <button className="2xl:px-16 md:px-6" onClick={scrollToContactMe}>
                 Contact
             </button>
-            <button className="text-2xl px-4">
+            <div className={`${barColor}`}>|</div>
+            <button className="2xl:px-16 md:px-6">
                 Resume
             </button>
 

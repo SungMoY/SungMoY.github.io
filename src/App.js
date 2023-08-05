@@ -7,11 +7,11 @@ import Aboutscreen from './Aboutscreen';
 
 export default function App() {
     return (
-        <div className="flex-col h-screen">
+        <div className="flex-col h-screen font-customfont bg-black">
             <Navbar/>
             <Splashscreen/>
-            <Contentscreen/>
             <Aboutscreen/>
+            <Contentscreen/>
             <Contactscreen/>
         </div>
     );
