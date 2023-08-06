@@ -4,8 +4,12 @@ export default function Aboutscreen() {
     return (
         <div 
         id="aboutscreen"
-        className="bg-purple-500 h-2/4">
-            Aboutscreen
+        className="border-2 flex flex-row h-screen">
+            <div className="text-white text-6xl">
+                About Me
+            </div>
+            
         </div>
     )
 }
+//remove h-screen and start implementing

@@ -4,8 +4,11 @@ export default function Contactscreen() {
     return (
         <div 
         id="contactscreen"
-        className="bg-yellow-500 h-2/4">
-            Contactscreen
+        className="border-2 flex flex-row h-screen">
+            <div className="text-white text-6xl">
+                Contact Me
+            </div>
         </div>
     )
 }
+//remove h-screen and start implementing
