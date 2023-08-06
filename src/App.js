@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from './Navbar'
-import Splashscreen from './Splashscreen'
-import Contentscreen from './Contentscreen'
-import Contactscreen from './Contactscreen'
-import Aboutscreen from './Aboutscreen';
-import Creditsscreen from './Creditsscreen';
+import Navbar from './components/Navbar'
+import Splashscreen from './components/Splashscreen'
+import Contentscreen from './components/Contentscreen'
+import Contactscreen from './components/Contactscreen'
+import Aboutscreen from './components/Aboutscreen';
+import Creditsscreen from './components/Creditsscreen';
 
 export default function App() {
     return (

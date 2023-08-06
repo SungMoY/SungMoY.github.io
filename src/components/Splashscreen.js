@@ -1,11 +1,11 @@
 import React from "react";
-import photo from "./IMG_3310.jpg";
+import photo from "../assets/portrait.jpg";
 
 export default function Splashscreen() {
     return (
         <div
         id="splashscreen"
-        className="h-full bg-[url(./IMG_1846.JPG)] bg-cover bg-center flex items-center">
+        className="h-full bg-[url(./assets/background.jpg)] bg-cover bg-center flex items-center">
             <div className="h-5/6 w-full lg:mb-0 md:mb-20 mb-28 flex flex-col-reverse lg:flex-row justify-center items-center">
                 <div className="w-fit lg:h-fit">
                     <div className="text-white font lg:text-4xl md:text-2xl text-xl">
