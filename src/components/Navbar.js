@@ -41,7 +41,7 @@ export default function Navbar() {
     return (
     <div
         id="navbar"
-        className={`fixed ${navSize} ${navColor} duration-150 rounded-b-lg w-full md:w-4/6 lg:w-3/6 md:left-1/2 md:transform md:-translate-x-1/2`}>
+        className={`fixed ${navSize} ${navColor} duration-150 rounded-b-lg w-full md:w-4/6 xl:w-3/6 md:left-1/2 md:transform md:-translate-x-1/2 z-50`}>
         <div className="mx-auto absolute top-0 left-0 right-0 bottom-0 border-b-2 border-gray-700 w-4/5 -z-50" />
 
         <div className="flex flex-row justify-center md:text-2xl px-4">
