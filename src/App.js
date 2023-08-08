@@ -12,7 +12,7 @@ export default function App() {
             <Navbar/>
             <Splashscreen/>
             <div className="bg-gradient-to-t from-sky-900 to-cyan-800
-                            flex flex-col gap-2 h-fit py-2">
+                            flex flex-col gap-2 h-fit py-8">
                 <Aboutscreen/>
                 <Contentscreen/>
                 <Contactscreen/>
