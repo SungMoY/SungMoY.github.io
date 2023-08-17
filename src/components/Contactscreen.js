@@ -2,10 +2,8 @@ import React from "react";
 
 export default function Contactscreen() {
     return (
-        <div 
-        id="contactscreen"
-        className="border-2 flex flex-row h-screen">
-            <div className="text-white text-6xl">
+        <div id="contactscreen">
+            <div className="w-1/2 mx-auto text-center text-6xl italic underline text-white pb-8 pt-64">
                 Contact Me
             </div>
         </div>

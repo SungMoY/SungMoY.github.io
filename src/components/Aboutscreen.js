@@ -11,25 +11,26 @@ import assembly from "../assets/assemblylogo.png";
 
 export default function Aboutscreen() {
     return (
-        <div id="aboutscreen"
-            className="mx-4 xl:w-3/4 xl:mx-auto grid xl:grid-cols-2 py-6 gap-12  xl:gap-0">
-            <div className="flex flex-col text-white mx-auto gap-y-6">
-                <div className="text-6xl font-bold text-center underline">
-                    About Me
-                </div>
+        <div id="aboutscreen">
+        <div className="w-1/2 mx-auto text-center text-6xl italic underline text-white pb-8">
+            About Me
+            </div>
+
+        <div className="mx-4 xl:w-4/5 xl:mx-auto grid xl:grid-cols-2 py-6 gap-12 xl:gap-0">
+            <div className="text-white mx-auto gap-y-6">
                 <div className="w-4/5 mx-auto">
                     I graduated cum laude from Stony Brook University with a Bachelor's degree in Computer Science. 
                     I have extensive experience in creating and deploying full stack web applications from the ground up.
                     My current interest is in machine learning and extending the capabiltiies of generative AI.
-                    I am looking for a full time position as a software engineer.
+                    I am looking for a full time position as a software engineer. 
                     <br/>
                     <br/>
-                    I also have experience in data analysis and visualization.
+                    I also have experience in data analysis and visualization. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </div>
             </div>
             <div className="flex flex-row space-x-6 xl:space-x-20 xl:py-2">
                 <div className="bg-white rounded-3xl drop-shadow-2xl font-bold">
-                    <div className="text-black sm:text-4xl text-center font-bold mt-4  xl:mt-6 underline">
+                    <div className="text-black sm:text-4xl text-center font-bold mt-4 xl:mt-6 underline">
                         MERN Stack
                     </div>
                     <div className="grid grid-cols-3 gap-4 mx-auto w-2/3 sm:gap-y-10 py-4  xl:py-10 sm:text-2xl">
@@ -90,7 +91,9 @@ export default function Aboutscreen() {
                         <div className="col-span-2 flex items-center sm:pl-2 pb-1">Assembly</div>
                     </div>
                 </div>
+                
             </div>
+        </div>
         </div>
     )
 }
