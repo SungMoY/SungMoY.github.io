@@ -12,7 +12,7 @@ import assembly from "../assets/assemblylogo.png";
 export default function Aboutscreen() {
     return (
         <div id="aboutscreen">
-        <div className="w-1/2 mx-auto text-center text-6xl italic underline text-white pb-8">
+        <div className="w-1/2 mx-auto text-center text-6xl italic underline text-white pb-8 font-bold pt-4">
             About Me
             </div>
 
@@ -33,7 +33,7 @@ export default function Aboutscreen() {
                     <div className="text-black sm:text-4xl text-center font-bold mt-4 xl:mt-6 underline">
                         MERN Stack
                     </div>
-                    <div className="grid grid-cols-3 gap-4 mx-auto w-2/3 sm:gap-y-10 py-4  xl:py-10 sm:text-2xl">
+                    <div className="grid grid-cols-3 gap-4 mx-auto w-2/3 sm:gap-y-10 py-4 xl:py-10 sm:text-2xl">
                         <img 
                             src={mongodb}
                             className="border-amber-800 border-2 rounded-full"
