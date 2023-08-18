@@ -7,13 +7,6 @@ import Aboutscreen from './components/Aboutscreen';
 import Creditsscreen from './components/Creditsscreen';
 
 export default function App() {
-
-    // <div class="block  sm:hidden md:hidden lg:hidden xl:hidden">al</div>
-    // <div class="hidden sm:block  md:hidden lg:hidden xl:hidden">sm</div>
-    // <div class="hidden sm:hidden md:block  lg:hidden xl:hidden">md</div>
-    // <div class="hidden sm:hidden md:hidden lg:block  xl:hidden">lg</div>
-    // <div class="hidden sm:hidden md:hidden lg:hidden xl:block">xl</div>
-
     return (
         <div className="h-screen font-customfont bg-black">
             <Navbar/>

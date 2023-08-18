@@ -28,9 +28,9 @@ export default function Contactscreen() {
             <div className="md:w-1/2 mx-auto text-center text-5xl md:text-6xl italic underline text-white pb-8 font-bold pt-32">
                 Contact Me
             </div>
-            <div className="flex flex-col lg:flex-row lg:gap-x-12 xl:gap-x-0 w-full lg:w-4/5 xl:w-1/2 mx-auto gap-y-4 md:text-3xl text-black text-center py-4">
+            <div className="flex flex-col xl:flex-row w-2/3 mx-auto gap-y-4 md:text-3xl text-black py-4">
                 <a href={resume} target="_blank" rel="noreferrer"
-                    className="bg-white grid grid-cols-3 rounded-2xl mx-auto w-3/5 md:w-2/5 lg:w-2/5 xl:w-1/4 h-16 hover:bg-gray-400 drop-shadow-2xl gap-0">
+                    className="bg-white grid grid-cols-3 rounded-2xl mx-auto w-64 h-16 hover:bg-gray-400 drop-shadow-2xl">
                     <img
                         src={resumeIcon}
                         className="col-span-1 my-auto w-4/5 h-4/5 md:h-4/5 lg:h-4/5 md:w-3/5 lg:w-4/5 ml-8"
@@ -43,7 +43,7 @@ export default function Contactscreen() {
                 </a>
                 <button 
                     onClick={handleEmailClick}
-                    className="bg-white grid grid-cols-3 rounded-2xl mx-auto w-3/5 md:w-2/5 lg:w-2/5 xl:w-1/4 h-16 hover:bg-gray-400 drop-shadow-2xl gap-0">
+                    className="bg-white grid grid-cols-3 rounded-2xl mx-auto w-64 h-16 hover:bg-gray-400 drop-shadow-2xl gap-0">
                     <img
                         src={email}
                         className={`col-span-1 my-auto w-4/5 h-4/5 md:h-4/5 lg:h-4/5 md:w-3/5 lg:w-4/5 ml-8`}
@@ -63,7 +63,7 @@ export default function Contactscreen() {
 
                 
                 <a href="https://www.linkedin.com/in/sung-mo-yang-35164727a/"
-                    className="bg-white grid grid-cols-3 rounded-2xl mx-auto w-3/5 md:w-2/5 lg:w-2/5 xl:w-1/4 h-16 hover:bg-gray-400 drop-shadow-2xl gap-0">
+                    className="bg-white grid grid-cols-3 rounded-2xl mx-auto w-64 h-16 hover:bg-gray-400 drop-shadow-2xl gap-0">
                     <img
                         src={linkedIn}
                         className="col-span-1 my-auto w-4/5 h-4/5 md:h-4/5 lg:h-4/5 md:w-3/5 lg:w-4/5 ml-8"

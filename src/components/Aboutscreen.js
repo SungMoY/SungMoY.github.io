@@ -7,6 +7,7 @@ import python from "../assets/pythonlogo.png";
 import java from "../assets/javalogo.jpg";
 import c from "../assets/clogo.png";
 import assembly from "../assets/assemblylogo.png";
+import javascript from "../assets/javascriptlogo.png";
 
 
 export default function Aboutscreen() {
@@ -20,7 +21,7 @@ export default function Aboutscreen() {
             <div className="text-white mx-auto gap-y-6">
                 <div className="w-4/5 mx-auto text-lg md:text-xl">
                     I graduated cum laude from Stony Brook University with a Bachelor's degree in Computer Science. My expertise is in full-stack web development, utilizing
-                    the MERN (MongoDB, Express, React, Node.js) technology stack to create dynamic and responsive web applications. 
+                    the MERN technology stack to create dynamic and responsive web applications. 
                     Additionally, I have extensive experience with object-oriented programming, computer networks, data analysis, and image processing.
                     <br/>
                     <br/>
@@ -75,6 +76,12 @@ export default function Aboutscreen() {
                         />
                         <div className="col-span-2 flex items-center sm:pl-2 pb-1">Python</div>
                         <img 
+                            src={javascript}
+                            className="border-white border-2"
+                            alt="javascript"
+                        />
+                        <div className="col-span-2 flex items-center sm:pl-2 pb-1">Javascript</div>
+                        <img 
                             src={java}
                             className="border-white border-2"
                             alt="java"
@@ -86,12 +93,6 @@ export default function Aboutscreen() {
                             alt="c"
                         />
                         <div className="col-span-2 flex items-center sm:pl-2 pb-1">C</div>
-                        <img 
-                            src={assembly}
-                            className="border-white border-2"
-                            alt="assembly"
-                        />
-                        <div className="col-span-2 flex items-center sm:pl-2 pb-1">Assembly</div>
                     </div>
                 </div>
                 
