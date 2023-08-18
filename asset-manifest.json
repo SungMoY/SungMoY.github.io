@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd5217cc.css",
-    "main.js": "/static/js/main.6834c411.js",
+    "main.css": "/static/css/main.7f473fe6.css",
+    "main.js": "/static/js/main.9efd6b62.js",
     "static/media/background.jpg": "/static/media/background.6c5e75ebb715bf7dc79b.jpg",
-    "static/media/resume.pdf": "/static/media/resume.9a72ae25e4f41b040974.pdf",
+    "static/media/resume.pdf": "/static/media/resume.009792b05a3dbc591a3a.pdf",
     "static/media/portrait.jpg": "/static/media/portrait.dd9540b256554d009a30.jpg",
     "static/media/assemblylogo.png": "/static/media/assemblylogo.07d5382e679c7fb92675.png",
     "static/media/pythonlogo.png": "/static/media/pythonlogo.497148589c94f67c97f7.png",
@@ -16,11 +16,11 @@
     "static/media/mongodblogo.jpg": "/static/media/mongodblogo.7634c21e2085bdcceb00.jpg",
     "static/media/resume.png": "/static/media/resume.feeb031411f8f0c94af0.png",
     "index.html": "/index.html",
-    "main.cd5217cc.css.map": "/static/css/main.cd5217cc.css.map",
-    "main.6834c411.js.map": "/static/js/main.6834c411.js.map"
+    "main.7f473fe6.css.map": "/static/css/main.7f473fe6.css.map",
+    "main.9efd6b62.js.map": "/static/js/main.9efd6b62.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd5217cc.css",
-    "static/js/main.6834c411.js"
+    "static/css/main.7f473fe6.css",
+    "static/js/main.9efd6b62.js"
   ]
 }
