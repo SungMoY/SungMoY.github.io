@@ -6,7 +6,6 @@ import node from "../assets/nodejslogo.png";
 import python from "../assets/pythonlogo.png";
 import java from "../assets/javalogo.jpg";
 import c from "../assets/clogo.png";
-import assembly from "../assets/assemblylogo.png";
 import javascript from "../assets/javascriptlogo.png";
 
 
@@ -19,21 +18,17 @@ export default function Aboutscreen() {
 
         <div className="mx-4 xl:w-4/5 xl:mx-auto grid xl:grid-cols-2 py-6 gap-12 xl:gap-0">
             <div className="text-white mx-auto gap-y-6">
-                <div className="w-4/5 mx-auto text-lg md:text-xl">
+                <div className="w-4/5 mx-auto text-lg xl:text-2xl">
                     I graduated cum laude from Stony Brook University with a Bachelor's degree in Computer Science. My expertise is in full-stack web development, utilizing
                     the MERN technology stack to create dynamic and responsive web applications. 
                     Additionally, I have extensive experience with object-oriented programming, computer networks, data analysis, and image processing.
-                    <br/>
-                    <br/>
-                    My current interest is machine learning and generative AI. I am working on extending the powerful capabilities of text, image, and audio generation by AI and merging
-                    them for seamless integration into a single application.
                     <br/>
                     <br/>
                     I am looking for a full time position as a software engineer, data analyst, or IT specialist.
                 </div>
             </div>
             <div className="flex flex-row space-x-6 xl:space-x-20 xl:py-2">
-                <div className="bg-white rounded-3xl drop-shadow-2xl font-bold">
+                <div className="bg-white rounded-3xl drop-shadow-2xl font-bold h-fit">
                     <div className="text-black sm:text-4xl text-center font-bold mt-4 xl:mt-6 underline">
                         MERN Stack
                     </div>
@@ -64,7 +59,7 @@ export default function Aboutscreen() {
                         <div className="col-span-2 flex items-center sm:pl-2 pb-1">Node.js</div>
                     </div>
                 </div>
-                <div className=" bg-white rounded-3xl drop-shadow-2xl font-bold">
+                <div className=" bg-white rounded-3xl drop-shadow-2xl font-bold h-fit">
                     <div className="text-black sm:text-4xl text-center underline font-bold mt-4  xl:mt-6">
                         Software Dev
                     </div>
