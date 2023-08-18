@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.297e487f.css",
-    "main.js": "/static/js/main.4d9101b0.js",
+    "main.js": "/static/js/main.418615ca.js",
     "static/media/background.jpg": "/static/media/background.6c5e75ebb715bf7dc79b.jpg",
     "static/media/resume.pdf": "/static/media/resume.009792b05a3dbc591a3a.pdf",
     "static/media/portrait.jpg": "/static/media/portrait.dd9540b256554d009a30.jpg",
@@ -10,6 +10,7 @@
     "static/media/expresslogo.png": "/static/media/expresslogo.b6dc128de85f1b180ffc.png",
     "static/media/nodejslogo.png": "/static/media/nodejslogo.b0fe604dc383336548d1.png",
     "static/media/javalogo.jpg": "/static/media/javalogo.26f86b5d89ca3d632678.jpg",
+    "static/media/javascriptlogo.png": "/static/media/javascriptlogo.b71e447b124bf655d1d6.png",
     "static/media/clogo.png": "/static/media/clogo.cd04dcb2ff407a1ad660.png",
     "static/media/reactlogo.jpg": "/static/media/reactlogo.02c24484ff6da4098012.jpg",
     "static/media/email.png": "/static/media/email.9036fe077a7892b40926.png",
@@ -17,10 +18,10 @@
     "static/media/resume.png": "/static/media/resume.feeb031411f8f0c94af0.png",
     "index.html": "/index.html",
     "main.297e487f.css.map": "/static/css/main.297e487f.css.map",
-    "main.4d9101b0.js.map": "/static/js/main.4d9101b0.js.map"
+    "main.418615ca.js.map": "/static/js/main.418615ca.js.map"
   },
   "entrypoints": [
     "static/css/main.297e487f.css",
-    "static/js/main.4d9101b0.js"
+    "static/js/main.418615ca.js"
   ]
 }
