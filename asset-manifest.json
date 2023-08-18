@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.297e487f.css",
-    "main.js": "/static/js/main.418615ca.js",
+    "main.css": "/static/css/main.12ef9865.css",
+    "main.js": "/static/js/main.7749010f.js",
     "static/media/background.jpg": "/static/media/background.6c5e75ebb715bf7dc79b.jpg",
     "static/media/resume.pdf": "/static/media/resume.009792b05a3dbc591a3a.pdf",
     "static/media/portrait.jpg": "/static/media/portrait.dd9540b256554d009a30.jpg",
-    "static/media/assemblylogo.png": "/static/media/assemblylogo.07d5382e679c7fb92675.png",
     "static/media/pythonlogo.png": "/static/media/pythonlogo.497148589c94f67c97f7.png",
     "static/media/expresslogo.png": "/static/media/expresslogo.b6dc128de85f1b180ffc.png",
     "static/media/nodejslogo.png": "/static/media/nodejslogo.b0fe604dc383336548d1.png",
@@ -17,11 +16,11 @@
     "static/media/mongodblogo.jpg": "/static/media/mongodblogo.7634c21e2085bdcceb00.jpg",
     "static/media/resume.png": "/static/media/resume.feeb031411f8f0c94af0.png",
     "index.html": "/index.html",
-    "main.297e487f.css.map": "/static/css/main.297e487f.css.map",
-    "main.418615ca.js.map": "/static/js/main.418615ca.js.map"
+    "main.12ef9865.css.map": "/static/css/main.12ef9865.css.map",
+    "main.7749010f.js.map": "/static/js/main.7749010f.js.map"
   },
   "entrypoints": [
-    "static/css/main.297e487f.css",
-    "static/js/main.418615ca.js"
+    "static/css/main.12ef9865.css",
+    "static/js/main.7749010f.js"
   ]
 }
