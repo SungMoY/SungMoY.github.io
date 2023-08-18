@@ -25,30 +25,31 @@ export default function Contactscreen() {
 
     return (
         <div id="contactscreen">
-            <div className="w-1/2 mx-auto text-center text-6xl italic underline text-white pb-8 font-bold pt-4">
+            <div className="md:w-1/2 mx-auto text-center text-5xl md:text-6xl italic underline text-white pb-8 font-bold pt-32">
                 Contact Me
             </div>
-            <div className="flex flex-col lg:flex-row lg:gap-x-0 w-full lg:w-1/2 mx-auto gap-y-4 text-3xl text-black text-center py-4">
-                <a href={resume} target="_blank" rel="noreferrer" className="bg-white grid grid-cols-3 rounded-2xl mx-auto w-1/4 hover:bg-gray-400 drop-shadow-2xl">
+            <div className="flex flex-col lg:flex-row lg:gap-x-12 xl:gap-x-0 w-full lg:w-4/5 xl:w-1/2 mx-auto gap-y-4 md:text-3xl text-black text-center py-4">
+                <a href={resume} target="_blank" rel="noreferrer"
+                    className="bg-white grid grid-cols-3 rounded-2xl mx-auto w-3/5 md:w-2/5 lg:w-2/5 xl:w-1/4 h-16 hover:bg-gray-400 drop-shadow-2xl gap-0">
                     <img
                         src={resumeIcon}
-                        className="col-span-1 w-4/6 my-auto ml-8"
+                        className="col-span-1 my-auto w-4/5 h-4/5 md:h-4/5 lg:h-4/5 md:w-3/5 lg:w-4/5 ml-8"
                         alt="resume"
                     />
                     <div
-                        className="col-span-2 my-auto mr-4">
+                        className="col-span-2 my-auto text-left ml-8">
                         Resumé
                     </div>
                 </a>
                 <button 
                     onClick={handleEmailClick}
-                    className="bg-white grid grid-cols-3 rounded-2xl mx-auto w-1/4 hover:bg-gray-400 drop-shadow-2xl"> 
+                    className="bg-white grid grid-cols-3 rounded-2xl mx-auto w-3/5 md:w-2/5 lg:w-2/5 xl:w-1/4 h-16 hover:bg-gray-400 drop-shadow-2xl gap-0">
                     <img
                         src={email}
-                        className={`col-span-1 w-3/4 my-auto ml-8 mb-2`}
+                        className={`col-span-1 my-auto w-4/5 h-4/5 md:h-4/5 lg:h-4/5 md:w-3/5 lg:w-4/5 ml-8`}
                         alt="email"
                     />
-                    <div className={`col-span-2 my-auto mr-0`}>
+                    <div className={`col-span-2 my-auto text-left ml-8`}>
                         <div
                             className={`${showMessage ? 'opacity-0 hidden' : 'opacity-100'}`}>
                             Email
@@ -61,14 +62,15 @@ export default function Contactscreen() {
                 </button>
 
                 
-                <a href="https://www.linkedin.com/in/sung-mo-yang-35164727a/" className="bg-white grid grid-cols-3 rounded-2xl mx-auto w-1/4 hover:bg-gray-400 drop-shadow-2xl">                   
+                <a href="https://www.linkedin.com/in/sung-mo-yang-35164727a/"
+                    className="bg-white grid grid-cols-3 rounded-2xl mx-auto w-3/5 md:w-2/5 lg:w-2/5 xl:w-1/4 h-16 hover:bg-gray-400 drop-shadow-2xl gap-0">
                     <img
                         src={linkedIn}
-                        className="col-span-1 w-4/6 my-auto ml-4"
+                        className="col-span-1 my-auto w-4/5 h-4/5 md:h-4/5 lg:h-4/5 md:w-3/5 lg:w-4/5 ml-8"
                         alt="linkedIn"
                     />
                     <div
-                        className="col-span-2 my-auto mr-4">
+                        className="col-span-2 my-auto text-left ml-8 lg:text-2xl">
                         LinkedIn
                     </div>
                 </a>

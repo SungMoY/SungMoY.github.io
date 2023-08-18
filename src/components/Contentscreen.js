@@ -3,7 +3,7 @@ import React from "react";
 export default function Contentscreen() {
     return (
         <div id="contentscreen">
-            <div className="w-1/2 mx-auto text-center text-6xl italic underline text-white pb-8 font-bold pt-6">
+            <div className="md:w-1/2 mx-auto text-center text-5xl md:text-6xl italic underline text-white pb-8 font-bold pt-32">
                 My Projects
             </div>
             <div className="w-3/5 mx-auto justify-center flex flex-row space-x-12 text-black overflow-auto py-8">
